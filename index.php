@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div>
+    <main>
         <form action="Nome-Invertido.php" method="post" id="forms">
             <h2 id="title-forms">Exibindo lista de nomes invertidos</h2>
             <div class="form-floating mb-3">
@@ -51,7 +51,7 @@
                 <button type="reset" class="btn btn-danger btn-format">Limpar</button>
             </div>
         </form>
-    </div>
+    </main>
 </body>
 
 </html>
