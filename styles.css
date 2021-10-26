@@ -5,26 +5,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-form{
+#forms{
     display: grid;
     place-content: center;
-    width: fit-content;
     border-radius: 0.5rem;
-    margin: 3rem 0;
+    width: fit-content;
+    margin: 3rem auto;
     padding: 2rem 4rem;
-    background-color: aliceblue;
+    background-color: #e9ecef;
 }
 
-h2{
+#title-forms{
     margin: 1rem 0;
-}
-
-input {
-    width: 15rem;
-    height: 1.5rem;
-    font-size: 1rem;
-    text-indent: 2px;
-    outline: none;
 }
 
 .container-buttons{
@@ -37,6 +29,6 @@ input {
     width: 8rem;
     height: 3rem;
     font-size: 1rem;
-    margin: 1rem;
+    margin: 1rem 0.2rem;
     cursor: pointer;
 }
