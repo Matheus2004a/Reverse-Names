@@ -12,7 +12,7 @@
 
 <body>
     <main>
-        <form action="Nome-Invertido.php" method="post" id="forms">
+        <form action="reverse-name.php" method="post" id="forms">
             <h2 id="title-forms">Exibindo lista de nomes invertidos</h2>
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="nomeUser1" required>
