@@ -26,12 +26,11 @@
         }
         echo "<br>";
 
-        $arrayInvertido = array($_POST['nomeUser8'], $_POST['nomeUser7'], $_POST['nomeUser6'], $_POST['nomeUser5'], $_POST['nomeUser4'], $_POST['nomeUser3'], $_POST['nomeUser2'], $_POST['nomeUser1']);
+        $arrayInvertido = array_reverse($nome);
 
         echo "Os nomes na forma invertida é: <br>";
         for ($i = 0; $i < count($arrayInvertido); $i++) {
-            print_r($arrayInvertido[$i]);
-            echo "<br>";
+            echo "$arrayInvertido[$i] <br>";
         }
         ?>
     </main>
